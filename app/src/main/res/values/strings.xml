@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Кредитный калькулятор</string>
+    <string name="sum_credit">Сумма кредита</string>
+    <string name="percent_year">Годовой процент</string>
+    <string name="dialog_title">Тогда Черный Коллектор придет за тобой!</string>
+    <string name="dialog_button_ok">Да, я буду платить в срок!</string>
+</resources>

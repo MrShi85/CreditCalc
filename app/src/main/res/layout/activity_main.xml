@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сумма кредита"
+        android:id="@+id/textView"
+        android:layout_margin="3dp"
+        android:padding="3dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sumCredit"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="3dp"
+        android:hint="Введите сумму кредита"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Годовой процент"
+        android:id="@+id/textProcent"
+        android:layout_margin="3dp"
+        android:padding="3dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sumProcent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="3dp"
+        android:hint="Введите процентную ставку"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ежемесячный платеж"
+        android:id="@+id/textPay"
+        android:layout_margin="3dp"
+        android:padding="3dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sumPay"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="3dp"
+        android:hint="Введите ежемесячный платеж"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Рассчитать"
+        android:id="@+id/buttonCalc"
+        android:padding="10dp"
+        android:layout_margin = "3dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Период кредитования :"
+        android:layout_margin="3dp"
+        android:padding="3dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sumMonth"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="16dp"
+        android:padding="3dp"
+        android:hint="N месяцев"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Переплата составляет :"
+            android:layout_margin="3dp"
+            android:padding="3dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sumProc"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="16dp"
+            android:padding="3dp"
+            android:hint="N рублей"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Что будет в случае просрочки платежа?"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Посмотреть"
+        android:id="@+id/buttonDialog"
+        android:padding="1dp"
+        android:layout_margin = "5dp"
+        />
+
+</LinearLayout>
